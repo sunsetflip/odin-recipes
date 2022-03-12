@@ -1,0 +1,53 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#heading {
+    margin: 0px;
+    margin-bottom: 10px;
+    color: #FF0000;
+    background-color: #FFFF59;
+    font-family: Papyrus, "Courier New", sans-serif;
+    text-align: center;
+}
+
+.chiyo {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto; /* top, right, bottom, left */
+}
+
+.chiyo-img {
+    width: 400px;
+    height: 300px;
+}
+
+.footer {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.btn   {
+    font-size: 22px;
+    font-family: Georgia, "Times New Roman", sans-serif;
+}
+
+.btn a { /* targets <a> tags that are descendents of the btn class */
+    text-decoration: none;
+    color: #1BB610;
+}
+
+.btn a:hover { /* targets <a> tags that are descendents of the btn class */
+    text-decoration: underline;
+    color: #000000;
+}
+
+.recipe-title {
+    font-family: Papyrus, "Courier New", sans-serif;
+}
+
+#recipe-links {
+    list-style: none;
+}
