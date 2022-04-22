@@ -5,7 +5,6 @@ body {
 
 #heading {
     margin: 0px;
-    margin-bottom: 10px;
     color: #FF0000;
     background-color: #FFFF59;
     font-family: Papyrus, "Courier New", sans-serif;
@@ -36,7 +35,7 @@ body {
 
 .btn a { /* targets <a> tags that are descendents of the btn class */
     text-decoration: none;
-    color: #1BB610;
+    color: #AE4AD2;
 }
 
 .btn a:hover { /* targets <a> tags that are descendents of the btn class */
@@ -46,8 +45,21 @@ body {
 
 .recipe-title {
     font-family: Papyrus, "Courier New", sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
 }
 
 #recipe-links {
     list-style: none;
+}
+
+#container {
+    background-color: #F1D8D3;
+    padding: 0px 0px 15px 10px;
+    /* top, right, bottom, left - applies to both padding and margin values */
+}
+
+#landing-page {
+    padding-top: 20px;
 }
